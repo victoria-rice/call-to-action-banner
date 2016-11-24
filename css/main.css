@@ -5,3 +5,33 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.banner {
+  max-height: 500px;
+  position: relative;
+}
+
+.img-flex {
+  width: 100%;
+}
+
+.absolute {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color:
+}
