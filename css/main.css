@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .banner {
@@ -18,22 +18,33 @@ body {
 
 .img-flex {
   width: 100%;
+  display: block;
 }
 
 .absolute {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  top: 25%;
+  min-width: 30rem;
 }
 
 h2 {
   font-size: 3rem;
   margin: 0;
+  width: 320px;
 }
 
 p {
   font-family: "Roboto Condensed", sans-serif;
   overflow: hidden;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: .1rem;
+}
+
+a {
+  position: absolute;
 }
 
 .btn-big {
@@ -43,4 +54,22 @@ p {
   color: #fff;
   padding: .4em .75em .3em;
   border-radius: 8px;
+}
+
+.btn {
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: lightgrey;
+}
+
+.circle {
+  float: left;
+  width: 33%;
+}
+
+.text {
+  float: right;
+  width: 66%;
 }
